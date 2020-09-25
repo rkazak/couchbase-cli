@@ -84,9 +84,9 @@ interval to 100 milliseconds run the following command.
 
   $ couchbase-cli xdcr-setup -c 192.168.1.5 -u Administrator \
    -p password --checkpoint-interval 500 --worker-batch-size 1000 \
-   --doc-batch-size 10240 --failure-restart-interval 60 \
+   --doc-batch-size 10000 --failure-restart-interval 60 \
    --optimistic-replication-threshold 102400 --source-nozzle-per-node 8 \
-   --target-nozzle-per-node 8 --log-level info --stats-interval 100
+   --target-nozzle-per-node 8 --log-level info --stats-interval 200
 
 == ENVIRONMENT AND CONFIGURATION VARIABLES
 
